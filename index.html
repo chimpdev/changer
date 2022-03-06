@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css">
+  <title>Quick Changer</title>
+</head>
+<body>
+  
+  <div class="content">
+    <div class="title">
+      Quick Changer
+      <div class="desc">Quickly changing your Discord bot username.</div>
+      <div class="error"></div>
+    </div>
+
+    <div class="input">
+      <input type="text" id="token" placeholder="Token" autocomplete="off">
+      <input type="text" id="username" placeholder="Username" autocomplete="off">
+      <button id="change" onclick="sendRequest()">Change</button>
+    </div>
+
+    <div class="open-source">
+      This website is open source. You can find the source code on <a href="https://github.com/chimpdev/changer">Github</a>.
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
