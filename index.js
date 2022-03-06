@@ -1,5 +1,10 @@
 function sendRequest() {
   const token = document.querySelector('#token').value;
+  if(token.trim() == '') {
+    $('#change').css('border-color', 'red').css('color', 'red');
+    return $('.error').css('color', 'red').html('Token cannot be empty.');
+  };
+  
   const newUsername = document.querySelector('#username').value;
   if(newUsername.trim() == '') {
     $('#change').css('border-color', 'red').css('color', 'red');
