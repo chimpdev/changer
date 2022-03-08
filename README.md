@@ -1,3 +1,6 @@
+#
+<strong>NOTE</strong> You no longer need this project. Again, you can change the bot name yourself through the portal.
+
 # Changer
 Quickly changing your Discord bot username with token.
   
